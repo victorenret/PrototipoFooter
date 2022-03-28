@@ -14,7 +14,7 @@
     display: flex;
 }
 
-.cajas-internas:not(.footer-columna1){
+.cajas-internas-footer:not(.footer-columna1){
     width: 280px;
     height: 295px;
     display: flex;
@@ -44,38 +44,38 @@
     border-radius: 70%;
 }
 
-.iconos-footer{
+.cajas-internas-footer .iconos-footer{
     height: 25px;
     border-radius: 100%;
     margin: 10px 20px 10px 10px;
 }
 
-.container-iconos{
+.cajas-internas-footer .container-iconos{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cajas-internas a{
+.cajas-internas-footer a{
     color: yellow;
 }
 
 	/*NATIVAS*/
 
-p.columna1{
+.cajas-internas-footer p.columna1{
     text-align: center;
     padding: 20px 0px 30px 0px;
 }
 
-h3.columna3{
+.cajas-internas-footer h3.columna3{
     padding-bottom: 20px;
 }
 
-h3.columna4{
+.cajas-internas-footer h3.columna4{
     padding-bottom: 20px;
 }
 
-p.columna5{
+.cajas-internas-footer p.columna5{
     text-align: center;
     padding: 20px 0px 10px 0px;
 }
