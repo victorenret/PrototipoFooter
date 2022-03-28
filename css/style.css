@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*OPEN FOOTER*/
+
+	/*CLASES*/
+.container-footer{
+    width: 1400px;
+    height: 295px;
+    margin: auto;
+    background-color: #243d82;
+    display: flex;
+}
+
+.cajas-internas:not(.footer-columna1){
+    width: 280px;
+    height: 295px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.footer-columna1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.container-footer h3, .container-footer p{
+    color: white;
+}
+
+.img-footer{
+    width: 250px;
+    height: 180px;
+}
+
+.img-footer-meli {
+    width: 174px;
+    height: 96px;
+    border-radius: 70%;
+}
+
+.iconos-footer{
+    height: 25px;
+    border-radius: 100%;
+    margin: 10px 20px 10px 10px;
+}
+
+.container-iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas-internas a{
+    color: yellow;
+}
+
+	/*NATIVAS*/
+
+p.columna1{
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+}
+
+h3.columna3{
+    padding-bottom: 20px;
+}
+
+h3.columna4{
+    padding-bottom: 20px;
+}
+
+p.columna5{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+/*END FOOTER*/
